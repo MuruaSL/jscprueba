@@ -2,7 +2,7 @@ let precio = parseInt(prompt("ingrese un precio de hamburguesa para saber como c
 let queso = prompt("Lleva queso extra?? (si o no)")
 
 if (queso == "si") {  
-    precio += 50;
+        precio += 50;
 }
 if (precio<3000){
         alert("Podrias comprar mas de una burger")
